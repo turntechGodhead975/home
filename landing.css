@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'helvetica';
+    src: url('helvetica-bold.woff2') format('woff2'); 
+}
+
+#landing {
+    display: flex;
+    justify-content: center;
+}
+
+#landing img {
+    width: 50%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+p {
+    font-family: 'helvetica';
+    text-align: center;
+}
+
+a {
+    color: rgb(74, 31, 126);
+}
