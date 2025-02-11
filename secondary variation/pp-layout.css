@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'picnic';
+    src: url('picnic.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-family: 'lcd';
+    src: url('LCDAT&TPhone.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-family: 'ocr-a';
+    src: url('ocr-a.woff2') format('woff2'); 
+}
+
+body {
+    font-family: 'lcd';
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.body-text {
+    position: absolute;
+    top: 124px;
+    left: 110px;
+    width: 645px;
+}
+
+.body-text h1 {
+    font-size: 40px;
+}
+
+.body-text p {
+    font-size: 20px;
+}
+
+
+.gift-container {
+    position: absolute;
+}
+
+.gift {
+    width: 100px; 
+    height: auto;
+    cursor: pointer;
+}
+
+#grappling-hook {
+    top: 200px;
+    left: 1000px;
+}
+
+#harmonica {
+    top: 200px;
+    left: 1115px;
+}
+
+#mug {
+    top: 200px;
+    left: 1230px;
+}
+
+#box {
+    top: 275px;
+    left: 1115px;
+}
+
+#oil {
+    top: 270px;
+    left: 1230px;
+}
+
+#incense {
+    top: 200px;
+    left: 1345px;
+}
+
+#lamp {
+    top: 295px;
+    left: 1345px;
+}
+
+#butter {
+    top: 315px;
+    left: 1000px;
+}
+
+#socks {
+    top: 430px;
+    left: 1115px;
+}
+
+#stapler {
+    top: 435px;
+    left: 1345px;
+}
+
+#stool {
+    top: 415px;
+    left: 1000px;
+}
+
+#stash {
+    top: 516px;
+    left: 1345px;
+}
+
+#sunset {
+    top: 488px;
+    left: 1230px;
+}
+
+#tray {
+    top: 599px;
+    left: 1345px;
+}
+
+#painting {
+    top: 600px;
+    left: 1000px;
+}
+
+#info-box {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid black;
+    padding: 12px;
+    max-width: 250px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    font-family: 'ocr-a', monospace;
+    font-size: 14px;
+    color: #000;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.9);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+}
+
+#info-box.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+#painting .gift {
+    width: 200px; 
+}
+
+a {
+    color: rgb(255, 136, 253); /* Default link color */
+    text-decoration: none; /* Removes underline */
+}

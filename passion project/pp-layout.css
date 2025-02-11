@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'picnic';
+    src: url('picnic.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url('helvetica-bold.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-family: 'ocr-a';
+    src: url('ocr-a.woff2') format('woff2'); 
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'helvetica', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body-text {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    width: 350px;
+}
+
+.gift-container {
+    position: absolute;
+}
+
+.gift {
+    width: 150px; 
+    cursor: pointer;
+}
+
+#grappling-hook {
+    top: 40px;
+    left: 1300px;
+}
+
+#harmonica {
+    top: 300px;
+    left: 400px;
+}
+
+#mug {
+    top: 650px;
+    left: 1000px;
+}
+
+#box {
+    top: 450px;
+    left: 400px;
+}
+
+#oil {
+    top: 650px;
+    left: 1550px;
+}
+
+#incense {
+    top: 20px;
+    left: 20px;
+}
+
+#lamp {
+    top: 400px;
+    left: 1550px;
+}
+
+#butter {
+    top: 50px;
+    left: 1500px;
+}
+
+#socks {
+    top: 100px;
+    left: 800px;
+}
+
+#stapler {
+    top: 650px;
+    left: 1200px;
+}
+
+#stool {
+    top: 700px;
+    left: 450px;
+}
+
+#stash {
+    top: 400px;
+    left: 1080px;
+}
+
+#sunset {
+    top: 400px;
+    left: 800px;
+}
+
+#tray {
+    top: 30px;
+    left: 1000px;
+}
+
+#painting {
+    top: 200px;
+    left: 300px;
+}
+
+#info-box {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid black;
+    padding: 12px;
+    max-width: 250px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    font-family: 'ocr-a', monospace;
+    font-size: 14px;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.9);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+}
+
+#info-box.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.path-text {
+    font-family: 'picnic', sans-serif; 
+    font-size: 50px; 
+    fill: #001eff; 
+}
+
+#body-text {
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    width: 300px;
+}
